@@ -1,0 +1,45 @@
+/* assets/css/style.css */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: yellowgreen;
+    padding: 30px;
+}
+  
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+  
+.product-card {
+    background-color: #c3ff88;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    max-width: 200px;
+    text-align: center;
+}
+  
+.product-card img {
+    width: 50%;
+    height: auto;
+}
+  
+.price {
+    font-weight: bold;
+    color: #e21f0a;
+}
